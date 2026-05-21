@@ -1,0 +1,90 @@
+import type { Metadata } from "next";
+import { Monitor, Network, ShieldCheck } from "lucide-react";
+import { CTASection, Container, PageHero, SectionHeader } from "@/components/ui";
+import { CONTACT_EMAIL, values } from "@/lib/content";
+
+export const metadata: Metadata = {
+  title: "About Norman Aghedo",
+  description:
+    "Learn about Norman Aghedo, a freelance IT support professional focused on clear communication, honest guidance, and practical technical help.",
+};
+
+export default function AboutPage() {
+  return (
+    <>
+      <PageHero
+        eyebrow="About"
+        title="About Norman Aghedo"
+        description="A freelance IT support professional focused on clear communication, honest guidance, and practical technical help."
+      />
+
+      <section className="bg-white py-16 sm:py-20">
+        <Container className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+          <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+            <div className="rounded-2xl bg-slate-950 p-6 text-white">
+              <p className="text-sm font-semibold uppercase tracking-[0.16em] text-blue-200">Norman Aghedo</p>
+              <h2 className="mt-5 text-3xl font-semibold">Everyday IT support, handled directly.</h2>
+              <div className="mt-8 grid gap-3">
+                {[
+                  ["Help desk support", Monitor],
+                  ["Remote troubleshooting", Network],
+                  ["Practical guidance", ShieldCheck],
+                ].map(([label, Icon]) => (
+                  <div key={String(label)} className="flex items-center gap-3 rounded-2xl bg-white/10 p-4">
+                    <Icon aria-hidden="true" className="size-5 text-blue-200" />
+                    <span className="font-medium">{String(label)}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div>
+            <SectionHeader eyebrow="Founder" heading="Norman Aghedo" />
+            <div className="mt-5 space-y-5 text-lg leading-8 text-slate-600">
+              <p>
+                Norman Aghedo is an IT support professional. His background includes help desk support, desktop support, remote troubleshooting, Windows support, Microsoft Office support, hardware setup, user accounts, and ticket resolution.
+              </p>
+              <p>
+                His agency is intentionally small -- he does not hand clients to a sales team or a generic queue. The goal is practical help, direct communication, and clear next steps when technology gets in the way of work.
+              </p>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      <section className="bg-slate-50 py-16 sm:py-20">
+        <Container>
+          <div className="max-w-4xl">
+            <SectionHeader eyebrow="Values" heading="A Service-Oriented Approach" />
+            <p className="mt-5 max-w-4xl text-lg leading-8 text-slate-600">
+              Norman&apos;s approach is built around clear communication, patience, honesty, and dependable follow-through. His training as one of Jehovah&apos;s Witnesses has reinforced effective communication, principled honesty, respect for others, and strong work ethic. In client work, that shows up in simple ways: listening carefully, explaining clearly, and avoiding recommendations that do not fit the problem.
+            </p>
+          </div>
+        </Container>
+      </section>
+
+      <section className="bg-white py-16 sm:py-20">
+        <Container>
+          <SectionHeader eyebrow="What clients can expect" heading="Support that respects the person behind the problem" />
+          <div className="mt-10 grid gap-5 md:grid-cols-3">
+            {values.slice(0, 4).map((value) => (
+              <div key={value.title} className="border-t border-slate-200 pt-5">
+                <h3 className="text-lg font-semibold text-slate-950">{value.title}</h3>
+                <p className="mt-2 leading-7 text-slate-600">{value.description}</p>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      <CTASection
+        heading="Work with Norman"
+        body="Get practical IT support without unnecessary pressure, inflated claims, or confusing technical language."
+        primaryLabel="Email Norman"
+        primaryHref={`mailto:${CONTACT_EMAIL}`}
+        secondaryLabel="See Experience"
+        secondaryHref="/experience"
+      />
+    </>
+  );
+}
