@@ -14,7 +14,7 @@ export default function ServicesPage() {
       <PageHero
         eyebrow="Services"
         title="Freelance IT Support Services"
-        description="Practical support for common technology problems, small business needs, remote workers, team documentation, SharePoint basics, and groups that need reliable help without hiring a full-time IT department."
+        description="Practical support for common technology problems, small business needs, remote workers, team documentation, SharePoint basics, and groups that need a reliable technical contact."
       />
 
       <section className="bg-white py-16 sm:py-20">
@@ -76,7 +76,7 @@ export default function ServicesPage() {
       </section>
 
       <CTASection
-        heading="Not Sure Which Service Fits?"
+        heading="Find the Right Next Step"
         body="Send a short description of the problem. Norman can help identify the best next step or tell you honestly if the issue requires another type of specialist."
         primaryLabel="Email Norman"
         primaryHref={`mailto:${CONTACT_EMAIL}`}

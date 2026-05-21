@@ -51,7 +51,7 @@ export default function Home() {
                 <p className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-500">Common requests</p>
                 <h2 className="mt-2 text-2xl font-semibold text-slate-950">Issues Norman can help sort out</h2>
                 <p className="mt-3 text-sm leading-6 text-slate-600">
-                  No inflated promise. Send the issue and Norman will follow up with a practical next step.
+                  Send the issue and Norman will follow up with a practical next step.
                 </p>
               </div>
               <ul className="grid gap-3 md:grid-cols-2">
@@ -83,7 +83,7 @@ export default function Home() {
             <SectionHeader
               eyebrow="Services"
               heading="Support for the usual problems that slow people down"
-              description="Most technology problems do not need a huge contract or a dramatic process. They need someone careful enough to listen, check the basics, document what changed, and explain the next step clearly."
+              description="Everyday technology problems need careful listening, practical troubleshooting, useful documentation, and clear next steps."
             />
             <div className="grid gap-5 md:grid-cols-2">
               {services.slice(0, 4).map((service) => (
@@ -113,7 +113,7 @@ export default function Home() {
           </div>
           <div className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-8">
             <p className="text-sm font-semibold uppercase tracking-[0.16em] text-slate-500">Background</p>
-            <h2 className="mt-3 text-2xl font-semibold text-slate-950">Not a resume site, but the experience matters.</h2>
+            <h2 className="mt-3 text-2xl font-semibold text-slate-950">Experience that supports the way he works.</h2>
             <p className="mt-4 leading-7 text-slate-600">
               Before starting his own agency, Norman supported users in real help desk, desktop support, training, and team lead roles. That experience shapes the way he handles small freelance requests now: listen first, check carefully, communicate clearly, document what changed, and make repeatable steps easier for the next person.
             </p>

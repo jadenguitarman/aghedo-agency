@@ -127,7 +127,7 @@ export const services = [
     icon: FileText,
     title: "Documentation & SharePoint Support",
     description:
-      "Help creating clear instructions, internal notes, training materials, SharePoint page updates, and simple knowledge-base documentation so teams do not have to keep rediscovering the same fixes.",
+      "Help creating clear instructions, internal notes, training materials, SharePoint page updates, and simple knowledge-base documentation so teams can reuse the same reliable steps.",
     examples: [
       "Step-by-step user guides",
       "SharePoint page organization",
@@ -173,7 +173,7 @@ export const values = [
     icon: ClipboardCheck,
     title: "Reliable Follow-Through",
     description:
-      "Requests are tracked carefully so the problem does not disappear after the first message or remote session.",
+      "Requests are tracked carefully from the first message through the next practical step.",
   },
   {
     icon: Settings,
