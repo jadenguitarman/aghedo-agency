@@ -2,6 +2,7 @@ import {
   Cable,
   CheckCircle2,
   ClipboardCheck,
+  FileText,
   GraduationCap,
   Headphones,
   Laptop,
@@ -109,16 +110,33 @@ export const services = [
     icon: GraduationCap,
     title: "Technology Training",
     description:
-      "Plain-language walkthroughs for Microsoft Office, email, file organization, remote-work tools, and safer everyday technology habits.",
+      "Plain-language walkthroughs and user training for Microsoft Office, email, SharePoint basics, file organization, remote-work tools, and safer everyday technology habits.",
     examples: [
       "Microsoft Office basics",
       "Email best practices",
+      "SharePoint basics",
       "File organization",
       "Remote-work tools",
       "Basic computer confidence",
       "Safe technology habits",
     ],
     href: "/services#technology-training",
+  },
+  {
+    id: "documentation-sharepoint-support",
+    icon: FileText,
+    title: "Documentation & SharePoint Support",
+    description:
+      "Help creating clear instructions, internal notes, training materials, SharePoint page updates, and simple knowledge-base documentation so teams do not have to keep rediscovering the same fixes.",
+    examples: [
+      "Step-by-step user guides",
+      "SharePoint page organization",
+      "Training material cleanup",
+      "Knowledge-base articles",
+      "Onboarding documentation",
+      "Process notes and handoff docs",
+    ],
+    href: "/services#documentation-sharepoint-support",
   },
   {
     id: "cybersecurity-basics",
@@ -173,14 +191,15 @@ export const values = [
 
 export const trustItems = [
   "Windows and Microsoft Office help",
+  "SharePoint and documentation support",
   "Remote troubleshooting",
-  "Device and printer setup",
-  "Patient user support",
+  "Training and patient user support",
 ];
 
 export const commonProblems = [
   "A new laptop needs to be set up before Monday.",
   "Microsoft Office, email, or Teams is slowing down the workday.",
+  "A SharePoint page, checklist, or training guide needs to be cleaned up.",
   "A printer, monitor, dock, or keyboard will not cooperate.",
   "A user needs help with access, passwords, or basic onboarding.",
   "Files, apps, and updates need to be cleaned up and organized.",
@@ -239,9 +258,10 @@ export const jobs = [
     bullets: [
       "Onboarded and mentored new volunteers.",
       "Developed and delivered technical training materials.",
+      "Created documentation and guided users through repeatable technical processes.",
       "Led technical project teams to completion.",
     ],
-    skills: ["Training", "Team Leadership", "Project Coordination", "Mentoring"],
+    skills: ["Training", "Documentation", "Team Leadership", "Project Coordination", "Mentoring"],
   },
 ];
 
@@ -288,10 +308,12 @@ export const packages = [
   {
     icon: GraduationCap,
     title: "User Training Session",
-    description: "A patient walkthrough for users who need help with tools or workflows.",
+    description: "A patient walkthrough for users who need help with tools, SharePoint basics, documentation, or workflows.",
     bestFor: [
       "Microsoft Office basics",
       "Email organization",
+      "SharePoint walkthroughs",
+      "Documentation cleanup",
       "Remote-work tools",
       "Basic computer use",
       "Safe technology habits",

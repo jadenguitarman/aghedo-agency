@@ -5,7 +5,7 @@ import { CONTACT_EMAIL, packages, services } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Freelance IT Support Services",
   description:
-    "Remote IT support, computer setup, account access help, hardware support, technology training, and help desk support for small teams and professionals.",
+    "Remote IT support, computer setup, account access help, hardware support, SharePoint support, documentation, technology training, and help desk support.",
 };
 
 export default function ServicesPage() {
@@ -14,7 +14,7 @@ export default function ServicesPage() {
       <PageHero
         eyebrow="Services"
         title="Freelance IT Support Services"
-        description="Practical support for common technology problems, small business needs, remote workers, and teams that need reliable help without hiring a full-time IT department."
+        description="Practical support for common technology problems, small business needs, remote workers, team documentation, SharePoint basics, and groups that need reliable help without hiring a full-time IT department."
       />
 
       <section className="bg-white py-16 sm:py-20">

@@ -14,7 +14,7 @@ export default function Home() {
               Practical IT help when the computer is holding up the work.
             </h1>
             <p className="mt-6 max-w-2xl text-md leading-6 text-slate-700">
-              Norman Aghedo is a help desk and desktop support professional who helps teams in healthcare, corporate, accounting, and education with Windows computers, Microsoft Office, printers, device setup, account access, and everyday technical problems.
+              Norman Aghedo is a help desk, desktop support, and training-focused IT professional who helps teams with Windows computers, Microsoft Office, SharePoint, documentation, device setup, account access, and everyday technical problems.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <ButtonLink href={`mailto:${CONTACT_EMAIL}`}>Email Norman</ButtonLink>
@@ -83,7 +83,7 @@ export default function Home() {
             <SectionHeader
               eyebrow="Services"
               heading="Support for the usual problems that slow people down"
-              description="Most technology problems do not need a huge contract or a dramatic process. They need someone careful enough to listen, check the basics, and explain the next step clearly."
+              description="Most technology problems do not need a huge contract or a dramatic process. They need someone careful enough to listen, check the basics, document what changed, and explain the next step clearly."
             />
             <div className="grid gap-5 md:grid-cols-2">
               {services.slice(0, 4).map((service) => (
@@ -115,7 +115,7 @@ export default function Home() {
             <p className="text-sm font-semibold uppercase tracking-[0.16em] text-slate-500">Background</p>
             <h2 className="mt-3 text-2xl font-semibold text-slate-950">Not a resume site, but the experience matters.</h2>
             <p className="mt-4 leading-7 text-slate-600">
-              Before starting his own agency, Norman supported users in real help desk and desktop support roles. That experience shapes the way he handles small freelance requests now: listen first, check carefully, communicate clearly, and document what changed.
+              Before starting his own agency, Norman supported users in real help desk, desktop support, training, and team lead roles. That experience shapes the way he handles small freelance requests now: listen first, check carefully, communicate clearly, document what changed, and make repeatable steps easier for the next person.
             </p>
             <div className="mt-6 grid gap-3">
               {jobs.slice(0, 4).map((job) => (
@@ -125,18 +125,6 @@ export default function Home() {
                 </Link>
               ))}
             </div>
-          </div>
-        </Container>
-      </section>
-
-      <section className="bg-white py-14 sm:py-16">
-        <Container>
-          <div className="max-w-4xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.16em] text-slate-500">Values</p>
-            <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950">Service matters when tech problems are frustrating.</h2>
-            <p className="mt-5 text-lg leading-8 text-slate-600">
-              Norman&apos;s training as one of Jehovah&apos;s Witnesses has reinforced communication, honesty, patience, respect, and work ethic. Clients get clear answers, respectful support, and recommendations that match the actual problem.
-            </p>
           </div>
         </Container>
       </section>

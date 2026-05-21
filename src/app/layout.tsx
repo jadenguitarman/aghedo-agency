@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: "%s | Norman Aghedo",
   },
   description:
-    "Norman Aghedo provides freelance IT support, help desk support, desktop support, device setup, troubleshooting, and user training for small teams and professionals.",
+    "Norman Aghedo provides freelance IT support, help desk support, desktop support, SharePoint support, documentation, device setup, troubleshooting, and user training.",
   alternates: {
     canonical: SITE_URL,
   },
@@ -60,6 +60,8 @@ export default function RootLayout({
                 "Remote IT Support",
                 "Computer Setup",
                 "Technology Training",
+                "SharePoint Support",
+                "Documentation Support",
               ],
             }),
           }}

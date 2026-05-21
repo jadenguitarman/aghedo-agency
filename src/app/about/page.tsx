@@ -27,7 +27,7 @@ export default function AboutPage() {
               <div className="mt-8 grid gap-3">
                 {[
                   ["Help desk support", Monitor],
-                  ["Remote troubleshooting", Network],
+                  ["SharePoint and documentation", Network],
                   ["Practical guidance", ShieldCheck],
                 ].map(([label, Icon]) => (
                   <div key={String(label)} className="flex items-center gap-3 rounded-2xl bg-white/10 p-4">
@@ -42,10 +42,10 @@ export default function AboutPage() {
             <SectionHeader eyebrow="Founder" heading="Norman Aghedo" />
             <div className="mt-5 space-y-5 text-lg leading-8 text-slate-600">
               <p>
-                Norman Aghedo is an IT support professional. His background includes help desk support, desktop support, remote troubleshooting, Windows support, Microsoft Office support, hardware setup, user accounts, and ticket resolution.
+                Norman Aghedo is an IT support professional with a trainer&apos;s mindset. His background includes help desk support, desktop support, remote troubleshooting, Windows support, Microsoft Office support, SharePoint support, documentation, hardware setup, user accounts, and ticket resolution.
               </p>
               <p>
-                His agency is intentionally small -- he does not hand clients to a sales team or a generic queue. The goal is practical help, direct communication, and clear next steps when technology gets in the way of work.
+                His agency is intentionally small -- he does not hand clients to a sales team or a generic queue. The goal is practical help, direct communication, useful documentation, and clear next steps when technology gets in the way of work.
               </p>
             </div>
           </div>
@@ -57,7 +57,7 @@ export default function AboutPage() {
           <div className="max-w-4xl">
             <SectionHeader eyebrow="Values" heading="A Service-Oriented Approach" />
             <p className="mt-5 max-w-4xl text-lg leading-8 text-slate-600">
-              Norman&apos;s approach is built around clear communication, patience, honesty, and dependable follow-through. His training as one of Jehovah&apos;s Witnesses has reinforced effective communication, principled honesty, respect for others, and strong work ethic. In client work, that shows up in simple ways: listening carefully, explaining clearly, and avoiding recommendations that do not fit the problem.
+              Norman&apos;s approach is grounded in clear communication, patience, honesty, and reliable follow-through. His background has strengthened his commitment to effective communication, principled integrity, respect for others, and a strong work ethic. In client work, that shows up in practical ways: listening carefully, explaining concepts clearly, creating notes people can reuse, and avoiding recommendations that do not genuinely fit the problem.
             </p>
           </div>
         </Container>
