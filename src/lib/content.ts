@@ -202,7 +202,7 @@ export const testimonials = [
     name: "Jaden Baptista",
     title: "Software Development Consultant and Freelance Technical Writer, Authors Collective",
     link: {
-      label: "Jaden Baptista",
+      label: "Authors Collective",
       href: "https://authorscollective.org",
     },
   },
