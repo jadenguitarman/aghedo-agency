@@ -1,6 +1,7 @@
 import { CheckCircle2, Mail } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { TestimonialCarousel } from "@/components/testimonial-carousel";
 import { ButtonLink, CTASection, Container, IconCard, SectionHeader } from "@/components/ui";
 import { commonProblems, CONTACT_EMAIL, jobs, services, trustItems, values } from "@/lib/content";
 
@@ -76,6 +77,8 @@ export default function Home() {
           ))}
         </Container>
       </section>
+
+      <TestimonialCarousel />
 
       <section className="bg-white py-16 sm:py-20">
         <Container>

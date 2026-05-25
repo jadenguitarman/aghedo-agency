@@ -196,6 +196,45 @@ export const trustItems = [
   "Training and patient user support",
 ];
 
+export const testimonials = [
+  {
+    quote: "Norman was my trainer and personal mentor while we volunteered with a global IT team supporting backend tools and SharePoint systems. He onboarded me and about a dozen others with patience, clarity, and professionalism. Norman is technically capable, highly organized, principled, and incredibly easy to work with. He has a rare ability to keep work moving while prioritizing making people feel supported and comfortable. I would gladly recommend him to any organization looking for someone with strong technical ability, personal integrity, and genuine people skills.",
+    name: "Jaden Baptista",
+    title: "Software Development Consultant and Freelance Technical Writer, Authors Collective",
+    link: {
+      label: "Jaden Baptista",
+      href: "https://authorscollective.org",
+    },
+  },
+  {
+    quote: "Norman is quick to adapt and eager to learn. He often demonstrates a high level of understanding when it comes to networking configurations, as well as a keen interest in operating systems. From my experience with Norman, he is able to get along well with staff, teachers, and students alike. I would highly recommend him as an addition to any team.",
+    name: "Lee Jopling",
+    title: "Site Systems Technician, Yucaipa-Calimesa Unified School District",
+    link: {
+      label: "Yucaipa-Calimesa Unified School District",
+      href: "https://yhs.yucaipaschools.com/o/yhs",
+    },
+  },
+  {
+    quote: "Mr. Aghedo is able to prioritize and multi-task as he completes various projects. He communicates well with students, parents, and staff. Through my experience with him, I found Mr. Aghedo to be a highly motivated individual. He is friendly, helpful, self-motivated, and a very personable individual who works well in the school setting.",
+    name: "Dorothy Ennis",
+    title: "Assistant Principal, Kucera Middle School",
+    link: {
+      label: "Kucera Middle School",
+      href: "https://kucera.rialto.k12.ca.us/",
+    },
+  },
+  {
+    quote: "Norman exudes a strong desire for success and has displayed admirable professional attributes—patience, competence, and skill. He has demonstrated tireless energy and passion in performing his assigned tasks, and his dedication typifies the work ethic expected of high performers in any organization.",
+    name: "Dr. Samuel R. Coleman",
+    title: "RSP Instructor, Kucera Middle School",
+    link: {
+      label: "Kucera Middle School",
+      href: "https://kucera.rialto.k12.ca.us/",
+    },
+  },
+];
+
 export const commonProblems = [
   "A new laptop needs to be set up before Monday.",
   "Microsoft Office, email, or Teams is slowing down the workday.",

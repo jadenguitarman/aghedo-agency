@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Monitor, Network, ShieldCheck } from "lucide-react";
+import { TestimonialCarousel } from "@/components/testimonial-carousel";
 import { CTASection, Container, PageHero, SectionHeader } from "@/components/ui";
 import { CONTACT_EMAIL, values } from "@/lib/content";
 
@@ -42,7 +43,7 @@ export default function AboutPage() {
             <SectionHeader eyebrow="Founder" heading="Norman Aghedo" />
             <div className="mt-5 space-y-5 text-lg leading-8 text-slate-600">
               <p>
-                Norman Aghedo is an IT support professional with a trainer's mindset. His background includes help desk support, desktop support, remote troubleshooting, Windows support, Microsoft Office support, SharePoint support, documentation, hardware setup, user accounts, and ticket resolution.
+                Norman Aghedo is an IT support professional with a trainer&apos;s mindset. His background includes help desk support, desktop support, remote troubleshooting, Windows support, Microsoft Office support, SharePoint support, documentation, hardware setup, user accounts, and ticket resolution.
               </p>
               <p>
                 Clients work directly with Norman for practical help, direct communication, useful documentation, and clear next steps when technology gets in the way of work.
@@ -76,6 +77,12 @@ export default function AboutPage() {
           </div>
         </Container>
       </section>
+
+      <TestimonialCarousel
+        eyebrow="Recommendations"
+        heading="What trusted colleagues can say"
+        description="Use this section for real recommendations, references, or LinkedIn quotes as they come in."
+      />
 
       <CTASection
         heading="Work with Norman"
