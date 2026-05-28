@@ -205,6 +205,7 @@ export const testimonials = [
       label: "Authors Collective",
       href: "https://authorscollective.org",
     },
+    referenceContact: "jaden@authorscollective.org",
   },
   {
     quote: "Norman is quick to adapt and eager to learn. He often demonstrates a high level of understanding when it comes to networking configurations, as well as a keen interest in operating systems. From my experience with Norman, he is able to get along well with staff, teachers, and students alike. I would highly recommend him as an addition to any team.",
@@ -216,12 +217,30 @@ export const testimonials = [
     },
   },
   {
+    quote: "I remember Norman guiding me through a pretty intricate onboarding process. There were multiple environments, logins, and application installs. Without his help and professionalism, I would not have been able to easily navigate that process. In the IT industry, it is very common that people make you feel less knowledgeable than they are, but it was refreshing working with Norman because I didn't feel intimidated. Rather, I felt empowered and that helped me succeed.",
+    name: "Shaun Foti",
+    title: "IT Specialist, Watchtower Bible and Tract Society",
+    link: {
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/shaun-foti-a5bb68300",
+    },
+  },
+  {
     quote: "Mr. Aghedo is able to prioritize and multi-task as he completes various projects. He communicates well with students, parents, and staff. Through my experience with him, I found Mr. Aghedo to be a highly motivated individual. He is friendly, helpful, self-motivated, and a very personable individual who works well in the school setting.",
     name: "Dorothy Ennis",
     title: "Assistant Principal, Kucera Middle School",
     link: {
       label: "Kucera Middle School",
       href: "https://kucera.rialto.k12.ca.us/",
+    },
+  },
+  {
+    quote: "Working with Norman as a trainer was genuinely a great experience. He was patient, approachable and always willing to take the time to explain concepts clearly. What stood out to me the most was how he made me feel comfortable to ask questions or request clarification. He truly made it feel as an important part of the learning process.",
+    name: "Amélie Schaap",
+    title: "IT Specialist, Watchtower Bible and Tract Society",
+    link: {
+      label: "Watchtower Bible and Tract Society",
+      href: "https://www.jw.org",
     },
   },
   {
